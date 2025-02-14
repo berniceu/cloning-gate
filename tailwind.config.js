@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         sans: ['Libre Franklin', 'sans-serif'],
       },
+      
     },
   },
   plugins: [],
