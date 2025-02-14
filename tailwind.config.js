@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-blue': '#0c2340',
+        'custom-dark-blue': '#081629',
+        'custom-grey': '#555',
+        'custom-light-blue': '#143865'
+      },
+      fontFamily: {
+        sans: ['Libre Franklin', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
