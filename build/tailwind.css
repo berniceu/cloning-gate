@@ -647,12 +647,20 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .flex{
   display: flex;
 }
 
 .grid{
   display: grid;
+}
+
+.hidden{
+  display: none;
 }
 
 .size-6{
@@ -670,6 +678,14 @@ video {
 
 .h-screen{
   height: 100vh;
+}
+
+.h-5{
+  height: 1.25rem;
+}
+
+.h-1{
+  height: 0.25rem;
 }
 
 .min-h-\[100vh\]{
@@ -698,6 +714,10 @@ video {
 
 .w-\[100\%\]{
   width: 100%;
+}
+
+.w-1{
+  width: 0.25rem;
 }
 
 .max-w-\[50\%\]{
@@ -788,6 +808,32 @@ video {
   border-radius: 0.5rem;
 }
 
+.border-b-\[\.2rem\]{
+  border-bottom-width: .2rem;
+}
+
+.border-b-\[2rem\]{
+  border-bottom-width: 2rem;
+}
+
+.border-b{
+  border-bottom-width: 1px;
+}
+
+.border-b-\[\.1rem\]{
+  border-bottom-width: .1rem;
+}
+
+.border-b-gray-200{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity, 1));
+}
+
+.border-b-custom-grey{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(85 85 85 / var(--tw-border-opacity, 1));
+}
+
 .bg-custom-blue{
   --tw-bg-opacity: 1;
   background-color: rgb(12 35 64 / var(--tw-bg-opacity, 1));
@@ -866,6 +912,10 @@ video {
   padding: 2rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
 .px-12{
   padding-left: 3rem;
   padding-right: 3rem;
@@ -919,6 +969,16 @@ video {
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pl-14{
@@ -1058,6 +1118,10 @@ video {
 }
 
 @media not all and (min-width: 640px){
+  .max-sm\:hidden{
+    display: none;
+  }
+
   .max-sm\:flex-col{
     flex-direction: column;
   }
@@ -1076,8 +1140,16 @@ video {
     position: absolute;
   }
 
+  .md\:block{
+    display: block;
+  }
+
   .md\:flex{
     display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
   }
 
   .md\:w-1\/2{
