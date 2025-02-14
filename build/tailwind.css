@@ -1069,6 +1069,11 @@ video {
   padding-right: 0.25rem;
 }
 
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .pb-4{
   padding-bottom: 1rem;
 }
@@ -1079,6 +1084,10 @@ video {
 
 .pl-4{
   padding-left: 1rem;
+}
+
+.pl-6{
+  padding-left: 1.5rem;
 }
 
 .text-center{
@@ -1144,6 +1153,10 @@ video {
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-light{
+  font-weight: 300;
 }
 
 .uppercase{
@@ -1262,6 +1275,10 @@ video {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
+
+  .sm\:text-center{
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px){
@@ -1329,8 +1346,20 @@ video {
     flex-direction: row-reverse;
   }
 
+  .md\:flex-wrap{
+    flex-wrap: wrap;
+  }
+
   .md\:items-end{
     align-items: flex-end;
+  }
+
+  .md\:items-center{
+    align-items: center;
+  }
+
+  .md\:justify-between{
+    justify-content: space-between;
   }
 
   .md\:gap-8{
@@ -1359,6 +1388,35 @@ video {
   .md\:py-60{
     padding-top: 15rem;
     padding-bottom: 15rem;
+  }
+
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:px-1{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:px-14{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .md\:px-6{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .md\:pl-14{
+    padding-left: 3.5rem;
   }
 
   .md\:text-left{
