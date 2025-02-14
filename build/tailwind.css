@@ -682,6 +682,10 @@ video {
   right: 8rem;
 }
 
+.-top-\[10\%\]{
+  top: -10%;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -770,6 +774,10 @@ video {
 
 .h-\[4\.5rem\]{
   height: 4.5rem;
+}
+
+.h-\[120\%\]{
+  height: 120%;
 }
 
 .min-h-\[100vh\]{
@@ -922,6 +930,10 @@ video {
 
 .overflow-hidden{
   overflow: hidden;
+}
+
+.overflow-visible{
+  overflow: visible;
 }
 
 .overflow-x-hidden{
@@ -1376,6 +1388,10 @@ video {
 
   .md\:hidden{
     display: none;
+  }
+
+  .md\:h-\[120\%\]{
+    height: 120%;
   }
 
   .md\:w-1\/2{
